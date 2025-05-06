@@ -1,1 +1,10 @@
-
+{
+  "services": [
+    {
+      "name": "Cubewire website",
+      "url": "https://www.cubewire.com",
+      "auth": false,
+      "popout": "https://www.cubewire.com"
+    }
+  ]
+} 
