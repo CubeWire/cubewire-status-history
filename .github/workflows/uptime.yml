@@ -17,10 +17,10 @@ jobs:
           node-version: '20'
           
       - name: Install dependencies
-        run: pnpm install
+        run: npm install
         
       - name: Check status
-        run: pnpm tsx scripts/check-status.ts
+        run: npm tsx scripts/check-status.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
