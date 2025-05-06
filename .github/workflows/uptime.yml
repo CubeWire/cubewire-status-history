@@ -20,7 +20,7 @@ jobs:
         run: npm install
         
       - name: Check status
-        run: npm tsx scripts/check-status.ts
+        run: npx tsx scripts/check-status.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
