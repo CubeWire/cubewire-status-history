@@ -88,3 +88,6 @@
 - status: up
   timestamp: '2025-05-06T20:55:21.145Z'
   responseTime: 259
+- status: up
+  timestamp: '2025-05-06T21:07:23.713Z'
+  responseTime: 500
